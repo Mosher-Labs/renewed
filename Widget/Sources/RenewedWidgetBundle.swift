@@ -5,5 +5,6 @@ import WidgetKit
 struct RenewedWidgetBundle: WidgetBundle {
   var body: some Widget {
     RenewedWidget()
+    MediumWidget()
   }
 }

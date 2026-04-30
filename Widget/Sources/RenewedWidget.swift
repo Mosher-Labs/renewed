@@ -91,7 +91,7 @@ struct RenewedWidget: Widget {
     }
     .configurationDisplayName("Renewed")
     .description("Track your journey.")
-    .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+    .supportedFamilies([.systemSmall])
   }
 }
 
