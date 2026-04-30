@@ -17,10 +17,6 @@ struct TrackerQuery: EntityQuery {
       .map { TrackerEntity(id: $0.id.uuidString, title: $0.title, iconName: $0.iconName) }
   }
 
-  func defaultResult() -> TrackerEntity? {
-    suggestedEntities().first
-  }
-
   func suggestedEntities() -> [TrackerEntity] {
     let context = ModelContext(Self.container)
     context.autosaveEnabled = false
