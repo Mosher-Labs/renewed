@@ -7,4 +7,4 @@ on:
 
 jobs:
   pre-commit:
-    uses: Mosher-Labs/.github/.github/workflows/pre-commit.yml@3915b3040bd9335819629478bc809511bc014c67 # v0.12.0
+    uses: Mosher-Labs/.github/.github/workflows/pre-commit.yml@5c525704f2a00d0541a59d53a78662a980a4a130 # v0.12.1
